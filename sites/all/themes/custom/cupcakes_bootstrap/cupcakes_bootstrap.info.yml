@@ -1,0 +1,17 @@
+name: Cupcakes Bootstrap
+type: theme
+description: This is the bootstrap theme for the cupcakes page.
+core: 8.x
+# Defines the base theme
+base theme: classy
+# Defines libraries group in which we can add css/js.
+libraries:
+  - cupcakes_bootstrap/global-styling
+# Regions
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
