@@ -3,7 +3,7 @@ type: theme
 description: This is the bootstrap theme for the cupcakes page.
 core: 8.x
 # Defines the base theme
-base theme: classy
+base theme: bartik
 # Defines libraries group in which we can add css/js.
 libraries:
   - cupcakes_bootstrap/global-styling

@@ -8,7 +8,8 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drupal/pathauto": "^1.0",
-        "drupal/commerce": "^2.3"
+        "drupal/commerce": "^2.3",
+        "drupal/views_data_export": "^1.0@alpha"
     },
     "replace": {
         "drupal/core": "^8.4"
@@ -37,11 +38,11 @@
         },
         "installer-paths": {
             "core": ["type:drupal-core"],
-            "modules/contrib/{$name}": ["type:drupal-module"],
+            "sites/all/modules/contrib/{$name}": ["type:drupal-module"],
             "profiles/contrib/{$name}": ["type:drupal-profile"],
-            "themes/contrib/{$name}": ["type:drupal-theme"],
+            "sites/all/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"],
-            "modules/custom/{$name}": ["type:drupal-custom-module"],
+            "sites/all/modules/custom/{$name}": ["type:drupal-custom-module"],
             "themes/custom/{$name}": ["type:drupal-custom-theme"]
         }
     },
