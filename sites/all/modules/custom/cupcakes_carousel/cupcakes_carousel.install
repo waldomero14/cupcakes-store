@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Implements hook_update_8001.
+ * Implements hook_update_8000.
  * Clear caches trick.
  */
-function cupcakes_carousel_update_8001 () {
+function cupcakes_carousel_update_8000 () {
     drupal_flush_all_caches();
 }
