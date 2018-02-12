@@ -6,10 +6,12 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/console": "~1.0",
+        "drupal/console": "^1.5",
         "drupal/pathauto": "^1.0",
         "drupal/commerce": "^2.3",
-        "drupal/views_data_export": "^1.0@alpha"
+        "drupal/views_data_export": "^1.0@alpha",
+        "drupal/devel": "^1.2",
+        "drupal/date_popup": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.4"

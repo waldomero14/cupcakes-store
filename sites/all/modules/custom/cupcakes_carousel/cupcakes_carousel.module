@@ -4,6 +4,7 @@
  * Implements hook_theme().
  */
 function cupcakes_carousel_theme() {
+  kint('test');
   return [
     'images_carousel_formatter' => [
       'variables' => ['items' => NULL],
