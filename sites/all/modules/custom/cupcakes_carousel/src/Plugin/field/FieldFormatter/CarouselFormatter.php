@@ -26,7 +26,7 @@ class CarouselFormatter extends ImageFormatter {
    */
   public function viewElements(FieldItemListInterface $items, $langcode) {
     $items = parent::viewElements($items, $langcode);
-
+    
     $elements['#theme'] = 'images_carousel_formatter';
     $elements['#items'] = $items;
 

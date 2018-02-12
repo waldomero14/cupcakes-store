@@ -15,7 +15,6 @@
 #}
 {{ attach_library('cupcakes_carousel/carousel') }}
 <div class="carousel-field">
-    hola
     {% for item in items %}
         <div{{ item.attributes.addClass('field__item') }}>{{ item }}</div>
     {% endfor %}
