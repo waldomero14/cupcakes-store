@@ -1,0 +1,14 @@
+carousel:
+  js:
+    js/cupcakes_carousel.js: {}
+  dependencies:
+    - cupcakes_carousel/slick
+slick:
+  js:
+    vendor/slick-1.8.0/slick/slick.min.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    theme:
+      vendor/slick-1.8.0/slick/slick.css: {}
+      vendor/slick-1.8.0/slick/slick-theme.css: {}

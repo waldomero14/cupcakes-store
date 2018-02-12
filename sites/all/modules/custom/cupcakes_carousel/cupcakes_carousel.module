@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function cupcakes_carousel_theme() {
+  return [
+    'images_carousel_formatter' => [
+      'variables' => ['items' => NULL],
+    ],
+  ];
+}

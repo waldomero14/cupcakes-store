@@ -1,0 +1,8 @@
+name: Cupcakes Carousel
+type: module
+description: 'Provides functionality for an images carousel.'
+package: Cupcakes Store
+dependencies:
+  - drupal:image
+version: '8.x-1.x'
+core: '8.x'
